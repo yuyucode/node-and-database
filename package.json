@@ -1,0 +1,12 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "main": "client.js",
+  "license": "MIT",
+  "devDependencies": {
+    "mysql2": "^2.2.2"
+  },
+  "dependencies": {
+    "sequelize": "^6.3.5"
+  }
+}
