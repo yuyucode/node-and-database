@@ -1,14 +1,19 @@
 {
-  "name": "Nodejs",
+  "name": "node",
   "version": "1.0.0",
   "main": "client.js",
   "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon index"
+  },
   "devDependencies": {
-    "mysql2": "^2.2.2"
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
     "axios": "^0.20.0",
     "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
     "md5": "^2.3.0",
     "mockjs": "^1.1.0",
     "sequelize": "^6.3.5"
