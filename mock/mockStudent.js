@@ -1,6 +1,6 @@
 const Mock = require('mockjs')
 const data = Mock.mock({
-    "data|200-300":[{
+    "data|500-800":[{
         name: "@cname",
         birthday: "@date",
         "sex|1-2": true,

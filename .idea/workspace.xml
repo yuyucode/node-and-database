@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0a6e072b-af98-4d88-858c-a43a612d5b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bqugeModels/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/bqugeModels/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Class.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/sync.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
@@ -64,10 +70,41 @@
       <workItem from="1600784163757" duration="19000" />
       <workItem from="1600784204044" duration="1168000" />
       <workItem from="1600808716369" duration="2415000" />
+      <workItem from="1600812029209" duration="8717000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="343" key="#Notifications" timestamp="1600812863659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600812863659" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600812817663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600812817663" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1600812865149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600812865149" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600819654585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600819654585" />
   </component>
 </project>

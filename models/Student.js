@@ -1,5 +1,4 @@
 const sequelize = require('./db');
-const Class = require('./Class')
 const {DataTypes} = require('sequelize')
 
 const Student = sequelize.define('Student', {
@@ -25,6 +24,7 @@ const Student = sequelize.define('Student', {
     paranoid: true,
     timestamps: true,
 })
+
 
 module.exports = Student
 

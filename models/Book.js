@@ -10,6 +10,10 @@ const Book = sequelize.define('Book', {
         type: DataTypes.STRING,
         allowNull: true
     },
+    url:{
+        type: DataTypes.STRING,
+        allowNull: true
+    },
     publicDate:{
         type: DataTypes.DATE,
         allowNull: true,

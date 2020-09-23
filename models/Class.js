@@ -1,6 +1,7 @@
 const sequelize = require('./db');
 const {DataTypes} = require('sequelize')
 const Student  = require('./Student')
+
 const Class = sequelize.define('Class', {
     name: {
         type: DataTypes.STRING,
@@ -16,10 +17,9 @@ const Class = sequelize.define('Class', {
     updatedAt: false,
     paranoid: true,
     timestamps: true,
+},{
+    include:[Student]
 })
-Class.hasMany(Student);
-Student.belongsTo(Class)
-
 
 module.exports = Class
 
