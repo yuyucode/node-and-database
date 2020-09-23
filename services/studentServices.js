@@ -1,8 +1,17 @@
 const Student = require('../models/Student')
 
 
+exports.getStudent = async function ({page, limit, sex, name}){
+    const ins = await Student.findAll({
+        attributes:['id','name','birthday','phone','sex']
+    });
+    // console.log(ins)
+    return ins
+}
+
+
 /**
- *
+ * 添加数据
  * @param studentInfoObj  {{birthday: string, classId: number, phone: number, sex: number, name: string, classId: Number}}
  * @return {Promise<*>}
  */

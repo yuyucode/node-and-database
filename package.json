@@ -4,7 +4,7 @@
   "main": "client.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx nodemon index"
+    "start": "npx nodemon init"
   },
   "devDependencies": {
     "mysql2": "^2.2.5",

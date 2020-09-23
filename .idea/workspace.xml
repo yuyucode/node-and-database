@@ -5,13 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/mockStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/mock/mockStudent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Class.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Student.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/relation.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/relation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/errorMiidewear.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/errorMiidewear.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/studentServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/studentServices.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1600784204044" duration="1168000" />
       <workItem from="1600808716369" duration="2415000" />
       <workItem from="1600812029209" duration="19135000" />
-      <workItem from="1600854108995" duration="4764000" />
+      <workItem from="1600854108995" duration="21687000" />
     </task>
     <servers />
   </component>
@@ -98,10 +98,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600861378600" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600812817663">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600883625797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600812817663" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600883625797" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1600812865149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -110,9 +110,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600836071455" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600861724071">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600876096253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600861724071" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600876096253" />
   </component>
 </project>
