@@ -1,9 +1,5 @@
 require('./sync') // 同步数据库
-
-
-
-// 更改数据
+// require('./relation')  // 设置关系
 
 // require('../mock/mockClass')
-require('../mock/mockStudent')
-
+// require('../mock/mockStudent')

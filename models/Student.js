@@ -17,12 +17,14 @@ const Student = sequelize.define('Student', {
     phone: {
         type: DataTypes.STRING(11),
         allowNull: false
+    },
+    ClassId: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {
-    updatedAt: false,
-    createdAt: false,
-    paranoid: true,
-    timestamps: true,
+    updatedAt: true,
+    createdAt: true,
 })
 
 

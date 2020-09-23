@@ -17,8 +17,6 @@ const Class = sequelize.define('Class', {
     updatedAt: false,
     paranoid: true,
     timestamps: true,
-},{
-    include:[Student]
 })
 
 module.exports = Class

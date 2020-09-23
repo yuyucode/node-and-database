@@ -1,6 +1,6 @@
 const Mock = require('mockjs')
 const data = Mock.mock({
-    "data|500-800":[{
+    "data|100-200":[{
         name: "@cname",
         birthday: "@date",
         "sex|1-2": true,
@@ -8,5 +8,7 @@ const data = Mock.mock({
         "ClassId|1-10":0
     }]
 }).data;
-const Student = require('../models/Student')
+const Student = require('../models/Student');
 Student.bulkCreate(data);
+
+
