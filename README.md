@@ -1,3 +1,4 @@
+
 # express
 ```最后一次更新笔记时间：2020-09-23```
 
@@ -357,7 +358,7 @@ module.exports = router
 
 ![](assets/cookie2.png)
 
-由于http协议的无状态，服务器**忘记**了之前的所有请求，它无法确定这一次请求的客户端，就是之前登录成功的那个客户端。
+由于http协议的无状态，服务器**忘记**了之前的所有请求，它无法确定这一次 请求的客户端，就是之前登录成功的那个客户端。
 
 > 你可以把服务器想象成有着严重脸盲症的东哥，他没有办法分清楚跟他说话的人之前做过什么
 
@@ -1196,13 +1197,13 @@ window.atob("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9")
 
 ```json
 {
-  "ss"："发行者",
-	"iat"："发布时间",
-	"exp"："到期时间",
-	"sub"："主题",
-	"aud"："听众",
-	"nbf"："在此之前不可用",
-  "jti"："JWT ID"
+  "ss":"发行者",
+	"iat":"发布时间",
+	"exp":"到期时间",
+	"sub":"主题",
+	"aud":"听众",
+	"nbf":"在此之前不可用",
+  "jti":"JWT ID"
 }
 ```
 
@@ -1411,7 +1412,7 @@ exports.verify = function (req){
 
 ## 登录和认证-客户端开发
 
-封装axios
+**封装axios**
 ```js
 // 1、发送请求的时候，如果有token，需要附带到请求头中
 // 2、响应的时候，如果有token,保存token到本地（localstorage）
@@ -1426,7 +1427,7 @@ export default function (){
     if(token){
         instance = axios.create({
             headers:{
-                authorization: "bearer " + token;
+                authorization: "bearer " + token
             }
         })
     }
@@ -1447,4 +1448,26 @@ export default function (){
     return instance
 }
 ```
+
+**使用到的库**
+
+connect-history-api-fallback
+
+
+## 场景 - 日志记录
+
+**使用到的库**  
+```log4js```[地址链接https://log4js-node.github.io/log4js-node](https://log4js-node.github.io/log4js-node)
+
+
+**使用方法**
+app.use(日志中间件)
+
+## 场景 - 文件上传
+
+- 文件上传使用的http报文格式
+
+- 服务器解析处理的请求 
+  - ```yarn add multer```
+  - multer [链接](https://github.com/expressjs/multer)
 

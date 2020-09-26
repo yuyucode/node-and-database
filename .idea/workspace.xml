@@ -4,11 +4,6 @@
     <list default="true" id="0a6e072b-af98-4d88-858c-a43a612d5b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Copy of HTML File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,11 +37,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Vue" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.11.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,9 +54,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\微云同步\WEB前端\WEB后端项目\Node-MySql" />
       <recent name="H:\微云同步\WEB前端\WEB GIT\Node-MySql" />
     </key>
   </component>
@@ -74,7 +78,16 @@
       <workItem from="1600854108995" duration="22677000" />
       <workItem from="1600910282337" duration="3472000" />
       <workItem from="1600939745466" duration="1390000" />
-      <workItem from="1600942737016" duration="21512000" />
+      <workItem from="1600942737016" duration="22728000" />
+      <workItem from="1601036849198" duration="291000" />
+      <workItem from="1601038824931" duration="490000" />
+      <workItem from="1601041808813" duration="130000" />
+      <workItem from="1601041949189" duration="3548000" />
+      <workItem from="1601067310909" duration="366000" />
+      <workItem from="1601067718372" duration="5547000" />
+      <workItem from="1601114397849" duration="749000" />
+      <workItem from="1601115381904" duration="1235000" />
+      <workItem from="1601116635253" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -102,17 +115,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600951159873" />
+    <state x="560" y="220" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1601067437681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="220" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601067437681" />
+    <state x="687" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601116640119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601116640119" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601115782865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601115782865" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1600812865149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600812865149" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1600836071455">
+    <state x="464" y="267" key="IDE.errors.dialog" timestamp="1601043044783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600836071455" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600876096253">
+    <state x="464" y="267" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601043044783" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1601116658424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600876096253" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601116658424" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601067424247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601067424247" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
